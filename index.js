@@ -1,0 +1,17 @@
+$(function(){
+  $('.menu-profile').click(function(){
+    $('html,body').animate({scrollTop:$('h3').offset().top});
+  });
+  $('.menu-skill').click(function(){
+    $('html,body').animate({scrollTop:$('h4').offset().top});
+  });
+  $('.menu-myapp').click(function(){
+    $('html,body').animate({scrollTop:$('h5').offset().top});
+  });
+  $('.menu-contact').click(function(){
+    $('html,body').animate({scrollTop:$('h6').offset().top});
+  });
+  $('.menu-top').click(function(){
+    $('html,bpdy').animate({scrollTop:$('header').offset().top});
+  });
+});
